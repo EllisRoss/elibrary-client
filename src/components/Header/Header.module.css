@@ -1,0 +1,19 @@
+.header {
+    grid-area: h;
+    background-color: rosybrown;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "n l";
+    grid-template-columns: auto 100px;
+}
+
+.logo {
+    grid-area: l;
+    padding: 10px;
+}
+
+.navbar {
+    grid-area: n;
+    padding: 10px;
+}
+
